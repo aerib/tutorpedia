@@ -1,0 +1,21 @@
+#productContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.container {
+max-width: 720px;
+margin: 0 auto;
+}
+
+.product {
+    border: 1px solid #2825c4;
+    padding: 20px;
+    border-radius: 5px;
+}

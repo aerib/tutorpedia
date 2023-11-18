@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-zinc-900 text-zinc-500;
+    }
+    h1 {
+        @apply text-3xl font-bold text-zinc-50;
+    }
+    h2 {
+        @apply text-2xl font-bold text-zinc-50;
+    }
+    h3 {
+        @apply text-1xl font-bold text-zinc-50;
+    }
+    button {
+        @apply bg-zinc-500 text-zinc-300 p-2 rounded-lg;
+    }
+}
+
+@layer components {
+    .btn-primary {
+        @apply bg-indigo-600 hover:bg-indigo-400 text-white;
+    }
+    .btn-secondary {
+        @apply bg-transparent border-1 border-zinc-200 hover:border-indigo-600 text-white hover:text-white;
+    }
+}
